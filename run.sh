@@ -2,4 +2,4 @@
 
 export LD_PRELOAD=libX11.so
 
-java -Djava.library.path=bin:/usr/lib:/lib -cp bin -p bin --module launcher/launcher.Main
+java -cp bin:lib -p bin:lib --module launcher/launcher.Main
